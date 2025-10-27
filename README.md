@@ -22,3 +22,13 @@ It uses Apple’s MapKit to calculate routes between two locations and then chec
 2. Add your key in `ContentView.swift`:
    ```swift
    private let weatherAPIKey = "YOUR_API_KEY_HERE"
+   
+Build and run the project on an iPhone simulator or your Mac.
+
+Notes
+
+Works on both macOS and iOS.
+
+If no API key is added, the app uses simulated weather data for testing.
+
+Built with Xcode 16 and Swift 6.
